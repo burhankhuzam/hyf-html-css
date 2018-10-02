@@ -1,0 +1,31 @@
+- Research how to create a hidden file and how to display it using ls command.
+
+Create Single hidden file: touch .file1.txt
+Create multiple hidden files: touch .file1.txt .file2.txt .file3.txt
+Display hidden file: ls -a
+
+- Research how to create multiple nested directories with one mkdir command. E.g.
+How would you create 'fun' directory along with all directories in the path below: /c/Users/unmesh/these/folders/are/just/for/fun.
+
+Create multiple nested directories: mkdir -p c/Users/unmesh/these/folders/are/just/for/fun
+
+
+- Execute following commands terminal:
+
+echo "test" > fun
+echo "another test" >> fun
+wc -c fun
+
+Verify number of characters in the file:  wc fun= 1 2 13 fun
+
+
+- Research how to append something in the file *WITHOUT* a newline character.
+
+E.g. echo "test" > fun
+echo "another test" >> fun
+cat fun
+Output of "cat fun" is
+test
+another test
+- How would you use echo command, so that output would be: testanother test?
+echo "testanother test" > fun
